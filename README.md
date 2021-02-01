@@ -1,0 +1,1 @@
+### Using only native javascript codes to fetch and display information

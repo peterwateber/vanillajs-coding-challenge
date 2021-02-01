@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/input.css" />
+    </head>
+    <body>
+        <noscript>
+            <div class="noscript">
+                Javascript is disabled on your browser. Please enable Javascript
+                to use full functionality of this site.
+            </div>
+        </noscript>
+        <div class="container">
+            <div class="wrapper">
+                <div class="paper">
+                    <div class="col left">
+                        <h3 class="list-header">Contact List</h3>
+                        <div class="list-content">
+                            <form id="searcharea" class="list-form">
+                                <input
+                                    id="search"
+                                    class="input"
+                                    type="text"
+                                    placeholder="Search"
+                                />
+                                <img class="icon search" src="svg/search.svg" />
+                            </form>
+                            <ul class="list" id="list"></ul>
+                            <div id="nothing">Nothing to display.</div>
+                            <div id="loading" class="loading">
+                                <a id="loadMore" href="#">Load more...</a>
+                                <img src="svg/time.svg" />
+                            </div>
+                        </div>
+                    </div>
+                    <div id="right" class="col right">
+                        <h3 class="list-header">
+                            <a href="#" id="overrideToggle">
+                                <img
+                                    class="icon"
+                                    src="svg/arrow-left.svg"
+                                />
+                                Hide
+                            </a>
+                        </h3>
+                        <div id="overview" class="overview"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="scripts/main.js"></script>
+    </body>
+</html>
